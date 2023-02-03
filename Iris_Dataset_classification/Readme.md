@@ -22,6 +22,6 @@ scikit-learn
 # Algorithms
 Logistic Regression\
 K-Nearest Neighbors\
-Decision Tree\
+Decision Tree
 
 Best Model Accuracy: 97.00
