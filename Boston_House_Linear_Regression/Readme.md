@@ -1,41 +1,34 @@
-# Dataset Information
-The data has been split into two groups:
+Boston Housing Prediction Analysis - Regression
 
-training set (train.csv)
-test set (test.csv)
-The training set should be used to build your machine learning models. For the training set, we provide the outcome (also known as the “ground truth”) for each passenger. Your model will be based on “features” like passengers’ gender and class. You can also use feature engineering to create new features.
 
-The test set should be used to see how well your model performs on unseen data. For the test set, we do not provide the ground truth for each passenger. It is your job to predict these outcomes. For each passenger in the test set, use the model you trained to predict whether or not they survived the sinking of the Titanic.
+Dataset Information:
+Boston House Prices Dataset was collected in 1978 and has 506 entries with 14 attributes or features for homes from various suburbs in Boston.
 
-We also include gender_submission.csv, a set of predictions that assume all and only female passengers survive, as an example of what a submission file should look like.
-
-| Variable        | Definition      | Key |
-| --------------- | --------------- | --------------- |
-|survival	      |Survival	        |0 = No, 1 = Yes
-|pclass	          |Ticket class	    |1 = 1st, 2 = 2nd, 3 = 3rd
-|sex	          |Sex              |	
-|Age              |	Age| in years	
-|sibsp            |	# of siblings / spouses aboard the Titanic	|
-|parch	          |# of parents / children aboard the Titanic	|
-|ticket	          |Ticket number|	
-|fare	          |Passenger fare|	
-|cabin	          |Cabin number|	
-|embarked	      |Port of Embarkation |C = Cherbourg, Q = Queenstown, S = Southampton
-
-[Download_link](https://www.kaggle.com/c/titanic/data)
+Boston Housing Dataset Attribute Information (in order):
+        - CRIM     per capita crime rate by town
+        - ZN       proportion of residential land zoned for lots over 25,000 sq.ft.
+        - INDUS    proportion of non-retail business acres per town
+        - CHAS     Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
+        - NOX      nitric oxides concentration (parts per 10 million)
+        - RM       average number of rooms per dwelling
+        - AGE      proportion of owner-occupied units built prior to 1940
+        - DIS      weighted distances to five Boston employment centres
+        - RAD      index of accessibility to radial highways
+        - TAX      full-value property-tax rate per $10,000
+        - PTRATIO  pupil-teacher ratio by town
+        - B        1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
+        - LSTAT    % lower status of the population
+        - MEDV     Median value of owner-occupied homes in $1000's
+        
+Download link: https://www.kaggle.com/puxama/bostoncsv
 
 # Libraries
-pandas
-matplotlib
-seaborn
+pandas\
+matplotlib\
+seaborn\
 scikit-learn
 
 # Algorithms
-Logistic Regression
-Decision Tree
-Random Forest
-Extra Tress
-XGBoost
-LightGBM
-CatBoost
-Best Model Accuracy: 82.00
+Linear Regression
+
+Mean Squared Error: 24.0
